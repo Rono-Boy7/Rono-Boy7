@@ -1,0 +1,7 @@
+/* styles-desktop.css */
+
+/* Styles for laptops and desktops */
+body {
+    background: linear-gradient(45deg, #4CAF50, #2196F3); /* Diagonal gradient at a 45-degree angle */
+    color: #333;
+}

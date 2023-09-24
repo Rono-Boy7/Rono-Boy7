@@ -1,0 +1,7 @@
+/* styles-mobile.css */
+
+/* Styles for mobile devices */
+body {
+    background: linear-gradient(to bottom, #4CAF50, #2196F3); /* Vertical gradient from top to bottom */
+    color: #fff;
+}

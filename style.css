@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+/* Reset default margin and padding for the whole page */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation menu */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style the avatar image */
+.avatar {
+    width: 40px; /* Set the width of the avatar */
+    height: 40px; /* Set the height of the avatar */
+    border-radius: 50%; /* Making it a circle */
+    margin-right: 10px; /* Adding some spacing to the right of the avatar */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Style the 'About Me' section */
+.about {
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+}
+
+.about h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Slightly darker text color */
+}
+
+/* Style the video */
+video {
+    width: 100%; /* Making the video player responsive */
+    max-width: 600px; /* Limiting the video's maximum width */
+    display: block; /* Removing any inline spacing */
+    margin: 0 auto 20px; /* Placing the video in the centre and adding some margin at the bottom */
+    border-radius: 10px; /* Making Rounded corners for the video player */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+/* Styling the projects section */
+.projects {
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+.projects h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.project {
+    margin-bottom: 40px;
+    background-color: #fff; /* White background for project boxes */
+    border-radius: 10px; /* Making Rounded corners for project boxes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.project img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333; /* Dark text color */
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Making Slightly darker text color */
+    padding: 20px;
+}
+
+/* Adding some margin and padding to the whole page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the contact form */
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Adding Dark text color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333; /* Adding Dark text color */
+}
+
+input[type="tel"]::placeholder {
+    font-size: 14px;
+}
+
+small {
+    color: #666; /* Making Slightly darker text color */
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #222;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #ddd;
+}

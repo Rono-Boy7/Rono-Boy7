@@ -1,0 +1,7 @@
+/* styles-tablet.css */
+
+/* Styles for tablets */
+body {
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Horizontal gradient from left to right */
+    color: #333;
+}
